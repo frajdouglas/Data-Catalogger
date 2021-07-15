@@ -6,6 +6,6 @@ Recommend scheduling the script to run daily to keep an up to date summary of al
 
 main.py requires inputs of file share paths and credentials and also the save path for all output files.
 
-
+## Example Output
 ![](Screeshots_for_readme/output_example_current_files.png?raw=true "Output Example")
 ![](Screeshots_for_readme/output_example_sheets.png?raw=true)
