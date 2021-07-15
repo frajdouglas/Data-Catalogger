@@ -1,4 +1,4 @@
-% Azure File Store Data Catalogger
+#Azure File Store Data Catalogger
 
 Connects to specified azure file shares and gathers metadata including file path, size, type, created date and modified date. It will also identify current, new and deleted files since the last run.
 
