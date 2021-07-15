@@ -1,6 +1,6 @@
 # Azure File Store Data Catalogger
 
-Connects to specified azure file shares and gathers metadata including file path, size, type, created date and modified date. It will also identify current, new and deleted files since the last run.
+Connects to Azure file shares and gathers metadata including file path, size, type, created date and modified date. It will also identify current, new and deleted files since the last run.
 
 Recommend scheduling the script to run daily to keep an up to date summary of all your Azure files. Use the "run_catalogger.bat" file as a template.
 
