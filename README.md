@@ -4,7 +4,7 @@ This script will produce a summary excel spreadsheet for your file metadata. It 
 
 Metadata includes file path, size, type, created date and modified date. It will also identify current, new and deleted files since the last run.
 
-Scheduling the script to run daily will keep an up to date summary of all your Azure files. Use the "run_catalogger.bat" file as a template.
+Scheduling the script to run daily will keep an up to date summary of all your files. Use the "run_catalogger.bat" file as a template.
 
 ## Example Outputs
 
