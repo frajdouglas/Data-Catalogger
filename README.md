@@ -6,8 +6,6 @@ Metadata includes file path, size, type, created date and modified date. It will
 
 Scheduling the script to run daily will keep an up to date summary of all your Azure files. Use the "run_catalogger.bat" file as a template.
 
-main.py requires inputs of file share paths and credentials and also the save path for all output files.
-
 ## Example Outputs
 
 ![](Screenshots_for_readme/output_example_current_files.png?raw=true "Output Example")
@@ -16,6 +14,31 @@ main.py requires inputs of file share paths and credentials and also the save pa
 ## Instructions for Setup
 
 The minimum version of Python required is: 3.0.
+
+main.py requires inputs of file share paths and credentials and also the save path for all output files.
+
+Copy the bash terminal commands below to complete the setup for this project: ( NEEDS UPDATING )
+
+```
+git clone https://github.com/frajdouglas/reddit_clone.git
+
+npm install -D
+
+touch .env.development
+
+echo PGDATABASE=nc_news >> .env.development
+
+touch .env.test
+
+echo PGDATABASE=nc_news_test >> .env.test
+
+npm run setup-dbs
+
+npm run seed
+
+npm test
+
+```
 
 ## Process Flow
 ![](Screenshots_for_readme/process_flow.png?raw=true)
