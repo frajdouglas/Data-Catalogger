@@ -40,5 +40,5 @@ npm test
 
 ```
 
-## Process Flow
+## Process Flow (For azure file catalogging)
 ![](Screenshots_for_readme/process_flow.png?raw=true)
